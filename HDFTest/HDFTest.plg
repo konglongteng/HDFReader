@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HDFTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HDFTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\GDAL\HDF\HDF4\HDFTest\HDFDataset.cpp"
+"E:\GDAL\HDF\HDF4\HDFTest\HDFTest.cpp"
+"E:\GDAL\HDF\HDF4\HDFTest\HDFTestDoc.cpp"
+"E:\GDAL\HDF\HDF4\HDFTest\HDFTestView.cpp"
+"E:\GDAL\HDF\HDF4\HDFTest\SDSet.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+hm425m.lib hd425m.lib zlib1.lib szip.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HDFTest.pdb" /debug /machine:I386 /out:"Debug/HDFTest.exe" /pdbtype:sept /libpath:"./dll425" 
+.\Debug\Attr.obj
+.\Debug\HDFDataset.obj
+.\Debug\HDFTest.obj
+.\Debug\HDFTestDoc.obj
+.\Debug\HDFTestView.obj
+.\Debug\MainFrm.obj
+.\Debug\SDSet.obj
+.\Debug\StdAfx.obj
+.\Debug\HDFTest.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP104.tmp"
+<h3>Output Window</h3>
+Compiling...
+HDFDataset.cpp
+E:\GDAL\HDF\HDF4\HDFTest\HDFDataset.cpp(315) : warning C4551: function call missing argument list
+E:\GDAL\HDF\HDF4\HDFTest\HDFDataset.cpp(294) : warning C4101: 'i' : unreferenced local variable
+HDFTest.cpp
+HDFTestDoc.cpp
+HDFTestView.cpp
+SDSet.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HDFTest.bsc"  .\Debug\StdAfx.sbr .\Debug\Attr.sbr .\Debug\HDFDataset.sbr .\Debug\HDFTest.sbr .\Debug\HDFTestDoc.sbr .\Debug\HDFTestView.sbr .\Debug\MainFrm.sbr .\Debug\SDSet.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HDFTest.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
